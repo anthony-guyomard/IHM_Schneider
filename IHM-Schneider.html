@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="WebPartPageExpansion" content="full" />
+    <title>IHM Schneider</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript bootstrap -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!--External js file to get data from SharePoint List -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.jqueryui.min.css">
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+
+    <!-- Liens vers les scripts JS -->
+    <script type="text/javascript" src="../SiteAssets/js/searchBar.js"></script>
+
+    <!-- Liens vers la page de style CSS -->
+    <link rel="stylesheet" type="text/css" href="../SiteAssets/styleIHM.css"/>
+
+    <!-- Liens select2 -->
+    <script type="text/javascript" src="../SiteAssets/select2/select2.full.min.js"></script>
+    <link href="../SiteAssets/select2/select2.min.css" rel="stylesheet" />
+
+    <link rel="icon" type="image/png" href="../SiteAssets/Images/image-schneider-electric.png" />
+</head>
+
+
+<body>
+<div class="container-fluit">
+    <header>
+        <img alt="schneider" src="../SiteAssets/Images/logo-schneider-electric.png" class="img-responsive">
+    </header>
+</div>
+<div class="container-fluid">
+    <!-- NavBar -->
+    <p class="lead">Tapez votre recherche</p>
+    <select class="js-example-placeholder-single form-control" id="table-select2" style="width:250px;"></select>
+</div><!-- /.container-fluid -->
+<br />
+<br />
+<div>
+    <table id="database" class="display" cellspacing="0" width="95%"></table>
+</div>
+</body>
+</html>
